@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <com.sawatruck.driver.view.design.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/setting_language"
+        android:textSize="16dp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="40dp"
+        android:paddingStart="40dp">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+                android:id="@+id/radio_english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/english" />
+
+            <RadioButton
+                android:id="@+id/radio_arabic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/arabic" />
+
+            <RadioButton
+                android:id="@+id/radio_spanish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/spanish" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/weak_round_cancelbutton"
+            android:text="@string/btn_cancel"
+            android:textColor="@color/colorWhite"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/weak_round_button"
+            android:text="@string/btn_ok"
+            android:textColor="@color/colorWhite"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp" />
+    </LinearLayout>
+
+</LinearLayout>

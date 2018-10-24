@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="90dp"
+    >
+    <CheckBox
+        android:id="@+id/chk_list"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="@dimen/dimen10"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:layout_marginStart="@dimen/dimen10" />
+    <RelativeLayout
+        android:id="@+id/rl_photo"
+        android:layout_toRightOf="@id/chk_list"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/dimen10"
+        android:layout_marginRight="@dimen/dimen10"
+        android:layout_toEndOf="@id/chk_list"
+        android:layout_marginStart="@dimen/dimen10"
+        android:layout_marginEnd="@dimen/dimen10">
+
+        <com.sawatruck.driver.view.design.CircularImage
+            android:id="@+id/iv_user_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ico_user"/>
+
+        <com.sawatruck.driver.view.design.CircularImage
+            android:id="@+id/img_online"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:background="@drawable/drawable_online"
+            android:textColor="@color/colorAccent"
+
+            android:layout_marginEnd="5dp"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_toRightOf="@+id/rl_photo"
+        android:layout_marginLeft="@dimen/dimen10"
+        android:layout_marginTop="@dimen/dimen15"
+        android:layout_marginRight="@dimen/dimen15"
+        android:layout_marginStart="@dimen/dimen10"
+        android:layout_marginEnd="@dimen/dimen15"
+        android:layout_toEndOf="@+id/rl_photo">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           >
+
+            <com.sawatruck.driver.view.design.CustomTextView
+                android:id="@+id/txt_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="18dp" />
+
+            <com.sawatruck.driver.view.design.AutoResizeTextView
+                android:id="@+id/txt_last_mesage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_username"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/colorGray"
+                android:textSize="13dp" />
+
+            <com.sawatruck.driver.view.design.CustomTextView
+                android:id="@+id/txt_last_message_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+
+                android:layout_alignParentRight="true"
+                android:textSize="15dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

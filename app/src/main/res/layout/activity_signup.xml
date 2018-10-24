@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dimen20"
+            android:paddingBottom="@dimen/dimen40"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_company"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="@string/radio_company"
+                        android:textColor="@color/colorDarkGray" />
+
+                    <RadioButton
+                        android:id="@+id/radio_own_truck"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/radio_have_own_track"
+                        android:textColor="@color/colorDarkGray" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ico_user" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <com.sawatruck.driver.view.design.CustomEditText
+                        android:id="@+id/edit_firstname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/base_margin_horizontal_half"
+                        android:layout_marginRight="@dimen/base_margin_horizontal_half"
+                        android:gravity="top"
+                        android:hint="@string/hint_firstname"
+                        android:inputType="textPersonName"
+                        android:maxLines="1"
+                        android:paddingBottom="20dp"
+                        android:singleLine="true"
+                        android:textColor="@color/colorGray"
+                        android:textSize="15dp"
+                        android:layout_marginStart="@dimen/base_margin_horizontal_half"
+                        android:layout_marginEnd="@dimen/base_margin_horizontal_half" />
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.sawatruck.driver.view.design.CustomEditText
+                        android:id="@+id/edit_lastname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/base_margin_horizontal_half"
+                        android:layout_marginRight="@dimen/base_margin_horizontal_half"
+                        android:gravity="top"
+                        android:hint="@string/hint_lastname"
+                        android:inputType="textPersonName"
+                        android:paddingBottom="20dp"
+
+                        android:singleLine="true"
+                        android:textColor="@color/colorGray"
+                        android:textSize="15dp"
+                        android:layout_marginStart="@dimen/base_margin_horizontal_half"
+                        android:layout_marginEnd="@dimen/base_margin_horizontal_half" />
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_company_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ico_user" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.sawatruck.driver.view.design.CustomEditText
+                        android:id="@+id/edit_company_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/base_margin_horizontal_half"
+                        android:layout_marginRight="@dimen/base_margin_horizontal_half"
+                        android:gravity="top"
+                        android:hint="@string/hint_company_name"
+                        android:inputType="textPersonName"
+                        android:maxLines="1"
+                        android:paddingBottom="20dp"
+                        android:singleLine="true"
+                        android:textColor="@color/colorGray"
+                        android:textSize="15dp"
+                        android:layout_marginStart="@dimen/base_margin_horizontal_half"
+                        android:layout_marginEnd="@dimen/base_margin_horizontal_half" />
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_company_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ico_email" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.sawatruck.driver.view.design.CustomEditText
+                        android:id="@+id/edit_company_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/base_margin_horizontal_half"
+                        android:layout_marginRight="@dimen/base_margin_horizontal_half"
+                        android:gravity="top"
+
+                        android:hint="@string/hint_company_email"
+                        android:inputType="textEmailAddress"
+                        android:paddingBottom="20dp"
+                        android:singleLine="true"
+                        android:textColor="@color/colorGray"
+                        android:textSize="15dp"
+                        android:layout_marginEnd="@dimen/base_margin_horizontal_half"
+                        android:layout_marginStart="@dimen/base_margin_horizontal_half" />
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ico_email" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.sawatruck.driver.view.design.CustomEditText
+                        android:id="@+id/edit_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/base_margin_horizontal_half"
+                        android:layout_marginRight="@dimen/base_margin_horizontal_half"
+                        android:gravity="top"
+
+                        android:hint="@string/hint_email"
+                        android:inputType="textEmailAddress"
+                        android:paddingBottom="20dp"
+                        android:singleLine="true"
+                        android:textColor="@color/colorGray"
+                        android:textSize="15dp"
+                        android:layout_marginEnd="@dimen/base_margin_horizontal_half"
+                        android:layout_marginStart="@dimen/base_margin_horizontal_half" />
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ico_lock" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.sawatruck.driver.view.design.CustomEditText
+                        android:id="@+id/edit_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/base_margin_horizontal_half"
+                        android:layout_marginRight="@dimen/base_margin_horizontal_half"
+                        android:gravity="top"
+                        android:hint="@string/hint_password"
+                        android:inputType="textPassword"
+                        android:paddingBottom="20dp"
+                        android:singleLine="true"
+                        android:textColor="@color/colorGray"
+                        android:textSize="15dp"
+                        android:layout_marginEnd="@dimen/base_margin_horizontal_half"
+                        android:layout_marginStart="@dimen/base_margin_horizontal_half" />
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ico_phone" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content">
+
+                    <com.sawatruck.driver.view.design.CustomEditText
+
+                        android:id="@+id/edit_phonecode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/base_margin_horizontal_half"
+                        android:layout_marginRight="@dimen/base_margin_horizontal_half"
+                        android:gravity="top"
+                        android:enabled="false"
+                        android:inputType="number"
+                        android:paddingBottom="20dp"
+                        android:singleLine="true"
+                        android:text="+971"
+                        android:textColor="@color/colorGray"
+                        android:textSize="15dp"
+                        android:layout_marginStart="@dimen/base_margin_horizontal_half"
+                        android:layout_marginEnd="@dimen/base_margin_horizontal_half" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+
+                    <com.sawatruck.driver.view.design.CustomEditText
+
+                        android:id="@+id/edit_phonenumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/base_margin_horizontal_half"
+                        android:layout_marginRight="@dimen/base_margin_horizontal_half"
+                        android:gravity="top"
+                        android:hint="@string/hint_phonenumber"
+
+                        android:inputType="number"
+                        android:paddingBottom="20dp"
+                        android:singleLine="true"
+                        android:textColor="@color/colorGray"
+                        android:textSize="15dp"
+                        android:layout_marginEnd="@dimen/base_margin_horizontal_half"
+                        android:layout_marginStart="@dimen/base_margin_horizontal_half" />
+
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen30"
+
+                android:layout_marginRight="@dimen/dimen30"
+                android:layout_marginTop="@dimen/dimen10"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginStart="@dimen/dimen30"
+                android:layout_marginEnd="@dimen/dimen30">
+
+                <net.igenius.customcheckbox.CustomCheckBox
+                    android:id="@+id/chk_accept_terms"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="top"
+                    app:color_checked="@color/colorWhite"
+                    app:color_tick="@color/colorDarkGray"
+                    app:color_unchecked="@color/colorWhite"
+                    app:duration="30"
+                    app:stroke_width="1dp" />
+
+                <com.sawatruck.driver.view.design.CustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="@dimen/dimen5"
+                    android:text="@string/terms"
+                    android:layout_marginStart="@dimen/dimen5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dimen10"
+                android:background="@drawable/weak_round_orangebutton"
+                android:orientation="horizontal">
+
+                <com.sawatruck.driver.view.design.CustomTextView
+                    android:id="@+id/btn_signup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/dimen15"
+                    android:paddingTop="@dimen/dimen15"
+                    android:text="@string/btn_signup"
+                    android:textColor="@color/colorWhite" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.sawatruck.driver.view.design.CustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dimen10"
+                    android:gravity="center"
+                    android:text="@string/or"
+                    android:textAllCaps="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_signup_facebook"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dimen10"
+                android:background="@drawable/drawable_btn_facebook"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ico_facebook" />
+
+                <com.sawatruck.driver.view.design.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="start"
+                    android:paddingBottom="@dimen/dimen15"
+                    android:paddingTop="@dimen/dimen15"
+                    android:text="@string/btn_signup_facebook"
+                    android:textColor="@color/colorWhite" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_signup_google"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dimen10"
+                android:background="@drawable/drawable_btn_google"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ico_gplus" />
+
+                <com.sawatruck.driver.view.design.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="start"
+                    android:paddingBottom="@dimen/dimen15"
+                    android:paddingTop="@dimen/dimen15"
+                    android:text="@string/btn_signup_google"
+                    android:textColor="@color/colorWhite" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

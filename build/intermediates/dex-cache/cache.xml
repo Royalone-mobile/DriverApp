@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\Projects\drivertapp\app\libs\sentry-1.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="59f1d2484fed6478bd454dbe2470b2015172c656">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\2\sentry-1.6.1_decef03a38d45a79fd2962445fd160a45fa0aab3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\271441230055dcd0f296e624d1aa943b58af2de4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c02968353670d342900775862022033544598926\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Projects\drivertapp\app\libs\signalr-client-sdk-android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a6417809c26c61a7e208100f8284c1acdc398428">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\2\signalr-client-sdk-android_d2727e230ef1c643501695ad1b95bd58af3aa87f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\3f1699bad7352f05396936794a8dcff485b20cb5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d29e451fd5bcc265989bf80afd4f149d95d72e7d">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_82c62df796f5fac39c2ce4e3c9075db86a7cebae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\4523448846f2899db2c399002b297387ed769061\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4961be1437163ab598620a3c907c0f3432936f51">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bdf7c7976e056c58c2a009b939358a4529710608\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\84fc9e0d8eb278fbd78f81b5855d235029c824da\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="835be1a97d1d461060c330223b6b148662513d3f">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_82005de15eba100d60715ec17daadaed345e2dcb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\7fbe8dab8e80b3f9c510c5602eb1589334614a4b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5f6537d568e429a7010a233898a63429b957844a">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_23acf6b4dc3ff7e450549a793e9e400400495283\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\8d6c664dc6966076bef50ea37a96e5090fe1891c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e234aabd1c11160b5f76f50c5c53a324be322ede">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2786d71ab77e6e8fbb1ee955cfc1bccf5c2cc33f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\5e112d1f5e8f79a86d534c426b4a5816ee60e0d8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c2deeac83ffa1304264bc755c2ddb84e7a7fa239">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_13d5c8742b8279eb361ced61c8b703487cf43808\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\b5a539d20d5dcd0e55f351a0e8a7ac8bb87607e0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="91aa1ef30e6f38fdd4a9889dad4caff2ca1364ed">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_95fbe1d9686f565fb07252600d03a7e01f245711\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Projects\drivertapp\app\libs\acra-4.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="60a854db6e9445f56efc72bfb3da39f583eb6e89">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\2\acra-4.6.1_f517ba0539220645b1923bae5e7f820cca17e357\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\0dfa9e93aebc57cabaf989533b5a41c67aca7b54\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ecbc8e86377f02e195e715528d2263fed4f2a3ed">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_676069df486497dafc8838e39e4bc584c5c3330f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.1.1\98e484e67f913e934559f7f55f0c94be5593f03c\kotlin-stdlib-1.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="98e484e67f913e934559f7f55f0c94be5593f03c">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\kotlin-stdlib-1.1.1_9b155921e92a8dfc51fa3dd29b4cb3526eb09884\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\fd201d623b339314e747cd523df5010352759012\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b77e50b3c31d0fc64148530f7077f79ec114b5b9">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_80ce3246d3a29e6235293081cdca213e8022a2a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\c9c5485f2ebe25e09dc13ff9a50ad61dbf8b04df\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="74835f93f856481946e9c2ef5d5ba1295a164e7b">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b11feef7b5f3f07861a445c5003aa9df2ef35855\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Projects\drivertapp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e35e7c82df444ddfad2bf1f8a05d4cc2a6d704ea">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_5a0abb75d35402e8520e3bd16527bb7398eff0a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\96d602772db0c50f67ac13a476f9978018d93ae5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="13430a12bb2eb82b397f10f61fe1f6989279c6bd">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_80bb7500e3ef76dd0fb08b631ef8f091b72c19fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\7517b383d8ae11f22d484a66ceac9ad1919a555f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9ac36250b2f687568d6490487c3239e1246d6826">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8c11099761963897ea7a25b2f35a6b62d3b310ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\126ed3de588c1395a05cc87ad8ea1e997c048228\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="cc343a74c077ec04bbedf0c88f8a5473306edc78">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0d07cc98d5e09ebb301c56bd24ab2e69b7798694\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\cda35a913d213c076c329a09bb7aaec16b374188\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="abc2d3b2a9e357adec2358cac04fda7af3ec9aef">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e20cd18649a1eb7de7e7052619b370ab14b4c550\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\e0d2ea5276419e6d399c2cb7c12092d17d1f8475\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d03511ed39590aabfe98b9d893ba96a8a94fdd81">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b1a6f7522acdf59b18e822590ffd7236528a0ada\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\13.0\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\annotations-13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="919f0dfe192fb4e063e7dacadee7f8bb9a2672a9">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\annotations-13.0_1aeb68e2c4515fb7dd2b675593bfbf4bc5dfad10\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\030b93899dea07c3679a09f60a140cadf5fd65b6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e04f28ac2dd9bbe48ced6fc87fedf46c2586f5d6">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_91b61d9700f6a4cb89b79c187ae972e4ebfad7bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Projects\drivertapp\app\libs\butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\2\butterknife-7.0.1_b45a70a0cd3587bbfd05d17d1d8df2b83d43afa9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\fd928d0dc08007b8fb52773b9265a48b2ab31d95\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="15ad6a46fb8e2ed86556e0b330d738b589dc62c7">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_df5bc94982fc265e00b2d75fb297458a52867baa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Projects\drivertapp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_b1c7897453183dde6c38d9a3e817a16c65029a38\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Projects\drivertapp\app\libs\jackson-core-2.8.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8b46f39c78476fb848c81a49fa807a9e9506dddd">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-core-2.8.7_faaf61830f196e779c63f7f705fde480a464959a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\d4d7fa8f7340550eaea830d6cbe7d26316c21cfc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ec94bba6a9bbd3461d90830e0a0752a6487f5484">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_61c1addfadd91413b9ae5c6cbfe458e0ede710c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_153b9bf60e86fda6149c13cc5f8981d6d39cb7e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\016b120679db292cb2acb9b37ffa9bf6b4626e8b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="28bc7007cc5fb935b0737a42f05b8286936228b0">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_002b05f1833bf1062476fee1964f407efc4e5f20\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\c19ff5de0ef25537c96bc44182e74f6f743485a3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="cad1364721fc716a39bdc351d3637edb634c9aa5">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bf2e9229747de3f50f95f1aefe7cdb347e00c079\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Projects\drivertapp\app\libs\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\2\picasso-2.5.2_f2d97bdec5bf88a14a9b9fa58abafacda2d7474f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\25f898b29f6e82ea490b0cc5126b037823339ea1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="fbaffbfc2a42fce3718dc9f52182810ad332b0ec">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8e3ddc1ecf5f3a32d94d9ff191a194097ddb559d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Projects\drivertapp\app\libs\slf4j-api-1.7.24.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3f6b4bd4f8dbe8d4bea06d107a3826469b85c3e9">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\2\slf4j-api-1.7.24_8e7b0c59bc8fea2862dd34b491182635e28e8983\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\03cc9b02cbc82d35f06d5429ba046870f2140ad0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="40a6b8f05124eb9e6012e18b80a6dbd13440e283">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a5985ea86cc0a053420f8b6ea79caf6cea3d21d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Projects\drivertapp\app\libs\gson-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.4_e45ef797aa8a0216926c8669de75471512ce0104\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\bde4b945480b66ad5982fbb44c13480c81bc1405\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da47b5635353ca55aabc9e1ad6aaaa5626fedcb4">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e17ce04267b60cae28f04ffe418630bdee5c5836\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\a6d68495afa9331c7e30d08980d9f63f0350a1d8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9924f4b357772c79b2ed3175f83ced185e42eae1">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ac7a40bc9e4dd34219379956e28e561686f07360\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\3ebaf9fc055cf3d9482b3d5ff47be4a8afaa23d4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a64026daf4819a589aea776f5deb19b257a104d1">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_65bf02541df0e8c9f940226a7b85422d91d9efd9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\c56ee1585779ce0b8ad39652bfeb786c142e895e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="05e3d15c623cd98f0eb43c8249fb6151fae0786c">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8ff51d11dbc31fd631bfcb4902c65c61bf6b30a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\7a8ba5c7518ea506e0bdd9229de7138f92b2159b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b1e0cd070d7cf659ece90e919bff76e7ddc32532">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d06e85956961f40025255d6f12b278df785f28b2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\574ce707bc15de075ceec2bc08daed922ea5d7d4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c879101226d1b2aaf6edae3d7491de6fd56d2659">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b29c4b4d443b33e444e9abcdea85c9d4af4fa239\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jre7\1.1.1\e3be78b463658ae5a8c8b446b811671998c91f5\kotlin-stdlib-jre7-1.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0e3be78b463658ae5a8c8b446b811671998c91f5">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\kotlin-stdlib-jre7-1.1.1_16d154336e59a8813ca81d2fdaee9cedabebb5ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\dcc032d6f510c41294bc0243b27158222430c74d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8a43729dd397e849f2a8bdc5d57a2f3170efb3ed">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7fcfe4e2b747a1ca5b44627c6a5a3e6fc84af4a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_2ffa43787faa6b290fe66d228b3a775adc707a7a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\25.4.0\f6a2fc748ae3769633dea050563e1613e93c135e\support-annotations-25.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f6a2fc748ae3769633dea050563e1613e93c135e">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.4.0_5ddc730f1678609f286de383ae4e2c5ca3714997\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Projects\drivertapp\app\libs\httpclient-4.4.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c8d96f6fd2bcc179c312da33ee670a71188cc60d">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpclient-4.4.1.1_cc9d7e54ab8be686f1c28bfa8d135c1f6ca1ddda\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\803b09cedb713bdca58b53e976eee11543f06057\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5a743d0934e90e7f26d75a2463142c4b884b2981">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_21b222a8559d81584d448443cb194372668bb021\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Projects\drivertapp\app\libs\signalr-client-sdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a9ae02bd1a15497aa9222498ae7c6b27a53fa41f">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\2\signalr-client-sdk_c1610ccb46cfaea5671e642ca5a9ccf9e75bf6c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\d31dd792b6d26bf7a90bfff7cf38867333476cb7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="62e9322b0ed4fadcbd50c95741f1cd50ce5c7e12">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_522a3018c79896eaa8da562f7a521eb62daa5c66\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\e23894c1b26ba507c109b891d52074a0a70a658d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="696fe9ef08bac13982595ecfdd7a22a2c170a0cd">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fb214aa68df7103681fec116101d3bf97cbaebc7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\c43723d63915f339a9808597214a24c20ec62d54\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a7a0aa678c3bbadb67fb41df9e107f7ee9087902">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_aadda292c32049d7ef3dead19a2f36f7a834a210\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\07850b427e39276258dcb50e516c2d83114f4f84\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b8399b3ef86b9fe9fbfb2171bb6560ff3c49d468">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c95ea7f360a06ede43932221bc6a0ea83e37f257\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\782d9f34d350a6bb9b6ff2139fe9cb531ff782e2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d5ee4b7829f6ec48400e678cc969176f455cb14c">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_81bdaf5d837efaa2d54649597e4a9ddc07cc0720\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Projects\drivertapp\app\libs\android-async-http-1.4.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-async-http-1.4.9_e936587991a8115f0249b432ebafbcde4eac1985\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\royal\.android\build-cache\6af532fcf81fbbe6b15695e8f35084063f967523\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a889c98eedf85a7d9b77340e507ab9b60068e136">
+        <dex dex="E:\Projects\drivertapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_613fe3ed934c8c823bda428ac3ec6be3f4b1021c\classes.dex" />
+    </item>
+
+</items>

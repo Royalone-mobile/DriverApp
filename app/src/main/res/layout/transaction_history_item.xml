@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    app:cardElevation="@dimen/dimen5"
+    android:paddingLeft="@dimen/dimen5"
+    android:paddingRight="@dimen/dimen5"
+    card_view:cardCornerRadius="@dimen/dimen5"
+    android:paddingStart="@dimen/dimen5"
+    android:layout_marginEnd="20dp"
+    android:paddingEnd="@dimen/dimen5"
+    android:layout_marginStart="20dp">
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_transaction_type"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="@dimen/dimen10"
+            android:layout_marginRight="@dimen/dimen10"
+            android:layout_marginTop="@dimen/dimen10"
+            app:srcCompat="@drawable/ico_up_money"
+            android:layout_marginEnd="@dimen/dimen10"
+            android:layout_marginStart="@dimen/dimen10" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dimen15"
+            android:paddingTop="@dimen/dimen10">
+
+            <com.sawatruck.driver.view.design.CustomTextView
+                android:id="@+id/txt_balance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <com.sawatruck.driver.view.design.CustomTextView
+                android:id="@+id/txt_transaction_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/colorGray" />
+
+            <com.sawatruck.driver.view.design.CustomTextView
+                android:id="@+id/txt_transaction_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen10"
+                android:textColor="@color/colorLightGray" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

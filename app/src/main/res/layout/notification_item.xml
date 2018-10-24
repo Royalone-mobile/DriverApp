@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:paddingTop="5dp"
+        android:paddingBottom="@dimen/dimen5"
+        android:orientation="horizontal">
+
+        <com.sawatruck.driver.view.design.CircularImage
+            android:id="@+id/img_sender"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="@dimen/dimen15"
+            android:layout_marginRight="@dimen/dimen30"
+            app:srcCompat="@drawable/ico_user"
+            android:layout_marginStart="@dimen/dimen15"
+            android:layout_marginEnd="@dimen/dimen30" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layoutDirection ="locale"
+            android:orientation="vertical">
+
+            <com.sawatruck.driver.view.design.CustomTextView
+                android:text="@string/notify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="18dp" />
+
+            <com.sawatruck.driver.view.design.CustomTextView
+                android:id="@+id/txt_message"
+                android:ellipsize="marquee"
+                android:gravity="left"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <com.sawatruck.driver.view.design.CustomTextView
+                android:id="@+id/txt_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen25"
+                android:textColor="@color/colorGray"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View style="@style/GrayDivider" />
+</LinearLayout>

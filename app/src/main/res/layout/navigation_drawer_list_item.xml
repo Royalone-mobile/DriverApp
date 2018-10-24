@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:background="@color/colorOrange"
+    android:orientation="horizontal"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/sidemenu_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp" />
+    </FrameLayout>
+
+    <com.sawatruck.driver.view.design.CustomTextView
+        android:id="@+id/sidemenu_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:textSize="20dp" />
+
+    <com.sawatruck.driver.view.design.CustomTextView
+        android:id="@+id/sidemenu_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginLeft="@dimen/dimen5"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:layout_marginStart="@dimen/dimen5" />
+</LinearLayout>

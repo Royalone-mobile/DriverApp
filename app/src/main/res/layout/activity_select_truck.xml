@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/layout_toolbar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <include layout="@layout/fragment_recyclerview"/>
+    </LinearLayout>
+
+    <com.sawatruck.driver.view.design.CustomTextView
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorOrange"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="@string/btn_next"
+        android:textAllCaps="true"
+        android:visibility="gone"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp" />
+
+</LinearLayout>

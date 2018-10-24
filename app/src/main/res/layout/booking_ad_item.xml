@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_weight="2"
+    android:background="#F5F5F5"
+    android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dimen5"
+            android:paddingRight="@dimen/dimen5"
+            app:cardElevation="@dimen/dimen5"
+            card_view:cardCornerRadius="@dimen/dimen5"
+            android:paddingStart="@dimen/dimen5"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingEnd="@dimen/dimen5">
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen10"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <com.sawatruck.driver.view.design.CircularImage
+                            android:id="@+id/img_avatar"
+                            android:layout_width="@dimen/profile_photo_size"
+                            android:layout_height="@dimen/profile_photo_size"
+                            android:layout_marginLeft="@dimen/dimen15"
+                            android:layout_marginRight="@dimen/dimen30"
+                            app:srcCompat="@drawable/ico_truck"
+                            android:layout_marginEnd="@dimen/dimen30"
+                            android:layout_marginStart="@dimen/dimen15" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <com.sawatruck.driver.view.design.CustomTextView
+                            android:id="@+id/txt_username"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text=""
+                            android:textColor="@color/colorLightBlack"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <com.fuzzproductions.ratingbar.RatingBar
+                            android:id="@+id/rating_loader"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            app:emptyDrawable="@drawable/ic_star_border_amber_18dp"
+                            app:filledDrawable="@drawable/ic_star_amber_18dp"
+                            app:isIndicator="true"
+                            app:rating="5"
+                            app:starMargin="10dp"
+                            app:starSize="16dp"
+                            app:starSpacing="2dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen10"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_reject"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="1"
+
+                        android:background="@drawable/sharp_round_redbutton"
+                        android:text="@string/btn_reject"
+                        android:textColor="@color/colorWhite" />
+
+                    <Button
+                        android:id="@+id/btn_accept"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/sharp_round_greenbutton"
+                        android:text="@string/btn_accept"
+                        android:textColor="@color/colorWhite"
+                        android:layout_marginStart="20dp" />
+
+                    <Button
+                        android:id="@+id/btn_message"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/sharp_round_bluebutton"
+                        android:text="@string/btn_message"
+                        android:textColor="@color/colorWhite"
+                        android:layout_marginStart="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>

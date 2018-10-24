@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:duration="@integer/activity_anim_duration"
+       android:fromAlpha="1.0"
+       android:toAlpha="1.0"
+    tools:ignore="UnusedResources">
+
+
+</alpha>

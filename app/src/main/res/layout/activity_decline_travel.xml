@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#E7E7E7"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/layout_toolbar"
+        layout="@layout/layout_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding ="@dimen/dimen20"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen10"
+                android:paddingLeft="@dimen/dimen10"
+                android:paddingRight="@dimen/dimen10"
+                android:text="@string/write_complain"
+                android:textSize="16sp"
+                android:textColor="@color/colorBlack"
+                android:paddingEnd="@dimen/dimen10"
+                android:paddingStart="@dimen/dimen10" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.sawatruck.driver.view.design.CustomEditText
+                    android:id="@+id/edit_complain"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/drawable_edittext"
+                    android:ems="10"
+                    android:gravity="start"
+                    android:hint="@string/enter_complain"
+                    android:maxLength="300"
+                    android:paddingBottom="@dimen/dimen10"
+                    android:paddingLeft="@dimen/dimen5"
+                    android:paddingTop="@dimen/dimen10"
+                    android:imeOptions="actionDone"
+                    android:textColor="@color/colorDarkGray"
+                    android:textColorHint="@color/colorLightGray"
+                    android:paddingStart="@dimen/dimen5" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorOrange"
+        android:orientation="horizontal">
+
+        <com.sawatruck.driver.view.design.CustomTextView
+            android:id="@+id/btn_submit_complain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/btn_submit_complain"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

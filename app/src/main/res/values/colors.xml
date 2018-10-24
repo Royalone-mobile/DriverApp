@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#005AA3</color>
+    <color name="colorPrimaryDark">#005AA3</color>
+    <color name="colorAccent">@color/colorOrange</color>
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorDarkBlack">#36322F</color>
+    <color name="colorLightBlack">#222222</color>
+    <color name="colorDarkOrange">#FB8E02</color>
+    <color name="colorOrange">#FF9900</color>
+    <color name="colorCancelButton">#666666</color>
+    <color name="colorGray">#888</color>
+    <color name="colorLightGray">#BBB</color>
+    <color name="colorDarkGray">#444</color>
+    <color name="colorBlue">#0B5AA5</color>
+    <color name="colorGreen">#33CC00</color>
+    <color name="colorDarkGreen">#2DB841</color>
+    <color name="colorOffline" tools:ignore="UnusedResources">#999999</color>
+    <color name="colorInputMessage">#666666</color>
+    <color name="colorRed">#FF3300</color>
+    <color name="colorLightBlue">#2B72B0</color>
+    <color name="colorLightWhite">#F5F5F5</color>
+    <color name="colorLightPurple">#3F5B9A</color>
+    <color name="colorLightRed">#E84C3D</color>
+    <color name="colorLightPink">#FF4D53</color>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_toolbar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.sawatruck.driver.view.design.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:lines="2"
+            android:gravity="center"
+            android:text="@string/notice_input_code" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layoutDirection ="ltr"
+        android:padding="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.sawatruck.driver.view.design.CustomEditText
+            android:id="@+id/edit_Code1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:selectAllOnFocus="true"
+            android:gravity="center"
+            android:hint="@string/zero"
+            android:inputType="text"
+            android:maxLength="1" />
+
+        <com.sawatruck.driver.view.design.CustomEditText
+            android:id="@+id/edit_Code2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:selectAllOnFocus="true"
+            android:maxLength="1"
+            android:gravity="center"
+            android:layout_marginStart="20dp"
+            android:inputType="text"
+            android:hint="@string/zero" />
+
+        <com.sawatruck.driver.view.design.CustomEditText
+            android:id="@+id/edit_Code3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:maxLength="1"
+            android:selectAllOnFocus="true"
+            android:gravity="center"
+            android:layout_marginStart="20dp"
+            android:inputType="text"
+            android:hint="@string/zero" />
+
+        <com.sawatruck.driver.view.design.CustomEditText
+            android:id="@+id/edit_Code4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:ems="10"
+            android:selectAllOnFocus="true"
+            android:maxLength="1"
+            android:layout_marginStart="20dp"
+            android:inputType="text"
+            android:hint="@string/zero" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+        <com.sawatruck.driver.view.design.CustomTextView
+            android:id="@+id/btn_verify_account"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:background="@drawable/weak_round_button"
+            android:textColor="@color/colorWhite"
+            android:text="@string/btn_continue" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

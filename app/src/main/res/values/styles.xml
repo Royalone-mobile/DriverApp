@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="CircularView">
+        <attr name="cl_progress" format="integer"/>
+        <attr name="circular_border" format="boolean"/>
+        <attr name="circular_border_width" format="dimension"/>
+        <attr name="circular_color" format="color"/>
+        <attr name="circular_border_color" format="color"/>
+        <attr name="circular_shadow" format="boolean"/>
+        <attr name="circular_shadow_radios" format="float"/>
+        <attr name="CircularView_circular_shadow_color" format="color"></attr>
+        <attr name="cl_amplitude" format="float"/>
+    </declare-styleable>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <style name="GrayDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">3px</item>
+        <item name="android:background">@color/colorGray</item>
+    </style>
+
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/popup_background</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="android:progressDrawable">@drawable/ic_star_amber_18dp</item>
+        <item name="colorControlNormal">@color/colorOrange</item>
+        <item name="colorControlActivated">@color/colorOrange</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:maxHeight">30dp</item>
+    </style>
+
+</resources>

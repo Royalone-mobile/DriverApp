@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "801892352362",
+    "firebase_url": "https://sawatruckdriver-179104.firebaseio.com",
+    "project_id": "sawatruckdriver-179104",
+    "storage_bucket": "sawatruckdriver-179104.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801892352362:android:6f07fe3a7cb9acb1",
+        "android_client_info": {
+          "package_name": "com.sawatruck.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801892352362-ht3q7dl6i3o3kca57pr0qel9hsn43q17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4AO5_4nu7INtO3ljc1FAkLqs2HzY57xQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

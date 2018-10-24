@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/colorPrimary" />
+    <corners android:bottomRightRadius="40dp"
+        android:bottomLeftRadius="40dp"
+        android:topRightRadius="40dp"
+        android:topLeftRadius="40dp"/>
+</shape>
+
+
+
+<!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >-->
+    <!--<item>-->
+        <!--&lt;!&ndash;  THIS DOESN'T WORK: <bitmap android:src="@drawable/rounded_box"/>-->
+                <!--SO I TRY THIS:   &ndash;&gt;-->
+        <!--<shape xmlns:android="http://schemas.android.com/apk/res/android" >-->
+            <!--<solid android:color="@color/colorLightBlue"/>-->
+            <!--<corners android:radius="15px"/>-->
+            <!--<padding android:left="1dp" android:top="1dp" android:right="1dp" android:bottom="1dp" />-->
+        <!--</shape>-->
+    <!--</item>-->
+    <!--<item>-->
+        <!--<shape xmlns:android="http://schemas.android.com/apk/res/android">-->
+            <!--<gradient android:angle="90"-->
+                <!--android:startColor="#880f0f10"-->
+                <!--android:centerColor="#880d0d0f"-->
+                <!--android:endColor="#885d5d5e"/>-->
+
+            <!--<corners-->
+                <!--android:radius="15px" />-->
+        <!--</shape>-->
+    <!--</item>-->
+<!--</layer-list>-->

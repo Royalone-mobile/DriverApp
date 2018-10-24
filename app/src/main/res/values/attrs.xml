@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LabelView">
+        <attr name="label_distance" format="dimension" />
+        <attr name="label_height" format="dimension"/>
+        <attr name="label_backgroundColor" format="color"/>
+        <attr name="label_text" format="string"/>
+        <attr name="label_textSize" format="dimension" />
+        <attr name="label_textColor" format="color"/>
+        <attr name="label_visual" format="boolean"/>
+        <attr name="label_orientation" format="enum">
+            <enum name="LEFT_TOP" value="1"/>
+            <enum name="RIGHT_TOP" value="2"/>
+            <enum name="LEFT_BOTTOM" value="3"/>
+            <enum name="RIGHT_BOTTOM" value="4"/>
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="ProgressWheel">
+        <attr name="pwText" format="string" />
+        <attr name="pwTextColor" format="color" />
+        <attr name="pwTextSize" format="dimension" />
+        <attr name="pwBarColor" format="color" />
+        <attr name="pwRimColor" format="color" />
+        <attr name="pwRimWidth" format="dimension" />
+        <attr name="pwSpinSpeed" format="integer" />
+        <attr name="pwCircleColor" format="color" />
+        <attr name="pwRadius" format="dimension" />
+        <attr name="pwBarWidth" format="dimension" />
+        <attr name="pwBarLength" format="dimension" />
+        <attr name="pwDelayMillis" format="dimension"/>
+        <attr name="pwContourColor" format="color"/>
+        <attr name="pwContourSize" format="float"/>
+    </declare-styleable>
+
+</resources>

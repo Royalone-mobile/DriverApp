@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <com.sawatruck.driver.view.design.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/btn_cancel_delivery"
+        android:textAllCaps="true"
+        android:textSize="16dp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="40dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="40dp">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:orientation="horizontal"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+
+            android:background="@drawable/weak_round_cancelbutton"
+            android:text="@string/btn_cancel"
+            android:textColor="@color/colorWhite" />
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/weak_round_button"
+            android:text="@string/btn_ok"
+            android:textColor="@color/colorWhite"
+            android:layout_marginStart="40dp" />
+    </LinearLayout>
+
+</LinearLayout>

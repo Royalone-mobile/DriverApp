@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.sawatruck.driver.view.design.CustomTextView
+        android:id="@+id/txt_notification_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/dimen10"
+        android:paddingBottom="@dimen/dimen10"
+        android:paddingLeft="@dimen/dimen30"
+        android:paddingRight="@dimen/dimen30"
+        android:textColor="@color/colorDarkGray"
+        android:background="#E2E2E2"
+        android:text=""
+        android:paddingEnd="@dimen/dimen30"
+        android:paddingStart="@dimen/dimen30" />
+</LinearLayout>

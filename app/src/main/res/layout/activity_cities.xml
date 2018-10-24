@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/searchview"
+            android:layout_width="match_parent"
+            android:background="@color/colorWhite"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </android.support.v7.widget.SearchView>
+
+
+        <com.weiwangcn.betterspinner.library.BetterSpinner
+            android:id="@+id/spinner_city"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawSelectorOnTop="true"
+            android:hint="@string/dubai"
+            android:maxLength="8"
+            android:textColorHint="@color/colorGray"
+            android:paddingBottom="@dimen/dimen15"
+            android:paddingTop="@dimen/dimen15" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btn_select_from_map"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#f5f5f5"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/select_location_from_map_marker" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dimen10"
+            android:gravity="center"
+            android:text="@string/select_location_from_map"
+            android:layout_marginStart="@dimen/dimen10" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_locations"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

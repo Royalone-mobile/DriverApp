@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_toolbar" />
+
+        <com.sawatruck.driver.view.design.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/choose_payment_method"
+            android:textSize="20dp"
+            android:layout_marginStart="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@drawable/shadow_divider"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#F5F5F5"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radio_paypal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/paypal"
+                        android:textColor="@color/colorDarkGray" />
+
+                    <RadioButton
+                        android:id="@+id/radio_creditcard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/credit_card"
+                        android:textColor="@color/colorDarkGray" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <com.sawatruck.driver.view.design.CustomTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/expire_date"
+                            android:textColor="@color/colorDarkGray" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.sawatruck.driver.view.design.CustomEditText
+                                android:id="@+id/edit_expiredate"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/drawable_edittext"
+                                android:ems="10"
+                                android:hint="@string/enter_expire_date"
+                                android:imeOptions="actionNext"
+                                android:inputType="number"
+                                android:maxLength="5"
+                                android:paddingBottom="@dimen/dimen10"
+                                android:paddingLeft="@dimen/dimen5"
+                                android:paddingTop="@dimen/dimen10"
+                                android:textColor="@color/colorDarkGray"
+                                android:textColorHint="@color/colorLightGray"
+                                android:paddingStart="@dimen/dimen5" />
+                        </android.support.design.widget.TextInputLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.2"
+                        android:orientation="vertical">
+
+                        <com.sawatruck.driver.view.design.CustomTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/cvv"
+                            android:textColor="@color/colorDarkGray" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.sawatruck.driver.view.design.CustomEditText
+                                android:id="@+id/edit_CVV"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:background="@drawable/drawable_edittext"
+                                android:ems="10"
+                                android:hint="@string/enter_cvv"
+                                android:imeOptions="actionNext"
+                                android:inputType="textPersonName|number"
+                                android:maxLength="3"
+                                android:paddingBottom="@dimen/dimen10"
+                                android:paddingLeft="@dimen/dimen5"
+                                android:paddingTop="@dimen/dimen10"
+                                android:textColor="@color/colorDarkGray"
+                                android:textColorHint="@color/colorLightGray"
+                                android:paddingStart="@dimen/dimen5" />
+                        </android.support.design.widget.TextInputLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <com.sawatruck.driver.view.design.CustomTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/card_number"
+                        android:textColor="@color/colorDarkGray"
+                        android:textColorHint="@color/colorLightGray" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.sawatruck.driver.view.design.CustomEditText
+                            android:id="@+id/edit_cardnumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/drawable_edittext"
+                            android:ems="10"
+                            android:hint="@string/enter_cardnumber"
+                            android:imeOptions="actionNext"
+                            android:inputType="phone"
+                            android:maxLength="19"
+                            android:paddingBottom="@dimen/dimen10"
+                            android:paddingLeft="@dimen/dimen5"
+                            android:paddingTop="@dimen/dimen10"
+                            android:textColor="@color/colorDarkGray"
+                            android:textColorHint="@color/colorLightGray"
+                            android:paddingStart="@dimen/dimen5" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <com.sawatruck.driver.view.design.CustomTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/card_holder_name"
+                        android:textColor="@color/colorDarkGray" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.sawatruck.driver.view.design.CustomEditText
+                            android:id="@+id/edit_cardholdername"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/drawable_edittext"
+                            android:ems="10"
+                            android:hint="@string/enter_cardholdername"
+                            android:imeOptions="actionNext"
+                            android:inputType="textPersonName"
+                            android:paddingBottom="@dimen/dimen10"
+                            android:paddingLeft="@dimen/dimen5"
+                            android:paddingTop="@dimen/dimen10"
+                            android:textColor="@color/colorDarkGray"
+                            android:textColorHint="@color/colorLightGray"
+                            android:paddingStart="@dimen/dimen5" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.sawatruck.driver.view.design.CustomEditText
+                        android:id="@+id/edit_balance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/drawable_edittext"
+                        android:ems="10"
+                        android:gravity="top"
+                        android:hint="@string/hint_enter_balance"
+                        android:imeOptions="actionDone"
+                        android:inputType="number"
+                        android:paddingBottom="@dimen/dimen50"
+                        android:paddingLeft="@dimen/dimen5"
+                        android:paddingTop="@dimen/dimen5"
+                        android:textColor="@color/colorDarkGray"
+                        android:textColorHint="@color/colorLightGray"
+                        android:paddingStart="@dimen/dimen5" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/dimen10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:orientation="horizontal"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="40dp">
+
+            <com.sawatruck.driver.view.design.CustomTextView
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/sharp_round_cancelbutton"
+                android:gravity="center"
+                android:text="@string/btn_cancel"
+                android:textColor="@color/colorWhite" />
+
+            <com.sawatruck.driver.view.design.CustomTextView
+                android:id="@+id/btn_charge"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/sharp_round_button"
+                android:gravity="center"
+                android:text="@string/btn_charge"
+                android:textColor="@color/colorWhite"
+                android:layout_marginStart="40dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

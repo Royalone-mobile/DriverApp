@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/layout_toolbar"
+        layout="@layout/layout_toolbar" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp">
+
+            <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/map"
+                class="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal">
+
+            <com.sawatruck.driver.view.design.CustomTextView
+                android:id="@+id/txt_load_location"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorWhite"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/colorDarkGray"
+                android:textSize="16dp" />
+
+            <com.sawatruck.driver.view.design.CustomTextView
+                android:id="@+id/btn_navigate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@color/colorDarkOrange"
+                android:gravity="center"
+                android:text="@string/btn_navigate"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="@dimen/dimen10"
+            android:layout_marginLeft="@dimen/dimen10"
+            android:paddingLeft="@dimen/dimen10"
+            android:paddingRight="@dimen/dimen10"
+            android:paddingTop="@dimen/dimen10"
+            android:paddingBottom="@dimen/dimen10"
+            android:background="@drawable/weak_round_bluebutton"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/dimen10"
+            android:paddingStart="@dimen/dimen10"
+            android:layout_marginEnd="@dimen/dimen10"
+            android:layout_marginStart="@dimen/dimen10">
+
+
+
+            <com.sawatruck.driver.view.design.CustomTextView
+                android:id="@+id/btn_delivery_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/dimen20"
+                android:paddingBottom="@dimen/dimen20"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@color/colorWhite"
+                android:text="@string/btn_delivery_details" />
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorWhite"
+                android:orientation="vertical"></LinearLayout>
+            <com.sawatruck.driver.view.design.CustomTextView
+                android:id="@+id/btn_cancel_delivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:paddingTop="@dimen/dimen20"
+                android:paddingBottom="@dimen/dimen20"
+                android:textColor="@color/colorWhite"
+                android:text="@string/btn_cancel_delivery" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <com.sawatruck.driver.view.design.CustomTextView
+            android:id="@+id/btn_pickup_arrive"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorDarkOrange"
+            android:gravity="center"
+            android:text="@string/btn_arrived"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp" />
+        <com.sawatruck.driver.view.design.CustomTextView
+            android:id="@+id/btn_pickup_load"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorDarkOrange"
+            android:gravity="center"
+            android:text="@string/btn_pickup_load"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

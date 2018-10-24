@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ProgressWheel="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rc_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <com.todddavies.components.progressbar.ProgressWheel
+        android:id="@+id/progressbar_loading"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        ProgressWheel:pwText="Loading..."
+        ProgressWheel:pwTextColor="#222"
+        ProgressWheel:pwTextSize="14sp"
+        ProgressWheel:pwRimColor="#330097D6"
+        ProgressWheel:pwBarLength="60dp"
+        ProgressWheel:pwBarColor="#0097D6"
+        ProgressWheel:pwBarWidth="5dp"
+        ProgressWheel:pwRimWidth="2dp"
+        />
+</RelativeLayout>

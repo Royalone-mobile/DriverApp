@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "1065928255689",
+    "firebase_url": "https://sawatruck-174609.firebaseio.com",
+    "project_id": "sawatruck-174609",
+    "storage_bucket": "sawatruck-174609.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065928255689:android:6f07fe3a7cb9acb1",
+        "android_client_info": {
+          "package_name": "com.sawatruck.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065928255689-q8dn0mbiusemlu64s7kj49gme6elg111.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sawatruck.driver",
+            "certificate_hash": "b5af083df5df5a180c06d63af82d11f87d27642c"
+          }
+        },
+        {
+          "client_id": "1065928255689-lq761a0roaq51sks2nn33tuiai6ofp7d.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1065928255689-oddt9i6m4626oicmbspq2r3vgg9eolps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO0MI_W_O907XPBbmy_lQ4P7_LjCZoFyM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065928255689-lq761a0roaq51sks2nn33tuiai6ofp7d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065928255689:android:ad7c7d34259d0c83",
+        "android_client_info": {
+          "package_name": "com.sawatruck.loader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065928255689-dsgl2p0564nkrh0tibp5a7bbfut16rv5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sawatruck.loader",
+            "certificate_hash": "b0b1e2c1fbe581eeb1744908bb40df1836806db3"
+          }
+        },
+        {
+          "client_id": "1065928255689-lq761a0roaq51sks2nn33tuiai6ofp7d.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1065928255689-oddt9i6m4626oicmbspq2r3vgg9eolps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO0MI_W_O907XPBbmy_lQ4P7_LjCZoFyM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065928255689-lq761a0roaq51sks2nn33tuiai6ofp7d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

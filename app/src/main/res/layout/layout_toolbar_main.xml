@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="0dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:gravity="end"
+        app:popupTheme="@style/AppTheme">
+
+
+            <com.sawatruck.driver.view.design.CustomTextView
+                android:id="@+id/toolbar_title"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:text="@string/app_name"
+                android:textColor="@color/colorWhite"
+                android:textSize="16dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginLeft="@dimen/dimen5"
+                android:layout_marginRight="@dimen/dimen5"
+                android:layout_marginStart="@dimen/dimen5"
+                android:layout_marginEnd="@dimen/dimen5">
+
+                <ImageView
+                    android:id="@+id/btn_add_ad"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="@dimen/dimen10"
+                    android:layout_marginRight="@dimen/dimen10"
+                    android:src="@drawable/ico_plus_circle"
+                    android:layout_marginEnd="@dimen/dimen10"
+                    android:layout_marginStart="@dimen/dimen10" />
+
+                    <RelativeLayout
+                        android:layout_marginStart="@dimen/dimen10"
+                        android:layout_marginEnd="@dimen/dimen10"
+                        android:layout_marginLeft="@dimen/dimen10"
+                        android:layout_marginRight="@dimen/dimen10"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp">
+
+                        <ImageView
+                            android:id="@+id/btn_notification"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ico_bell"
+                            />
+                        <com.sawatruck.driver.view.design.CustomTextView
+                            android:id="@+id/txt_notification_count"
+                            android:textSize="12sp"
+                            android:text=""
+                            android:layout_marginRight="@dimen/dimen5"
+                            android:gravity="right"
+                            android:textColor="@color/colorRed"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/btn_searchfilter"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dimen10"
+                    android:layout_marginRight="@dimen/dimen10"
+                    android:src="@drawable/ico_search_filter"
+                    android:layout_marginStart="@dimen/dimen10"
+                    android:layout_marginEnd="@dimen/dimen10" />
+            </LinearLayout>
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+</android.support.design.widget.AppBarLayout>

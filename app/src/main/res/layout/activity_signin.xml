@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dimen20"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ico_email" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.sawatruck.driver.view.design.CustomEditText
+
+                    android:id="@+id/edit_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="@dimen/base_margin_horizontal_half"
+                    android:layout_marginLeft="@dimen/base_margin_horizontal_half"
+                    android:layout_marginRight="@dimen/base_margin_horizontal_half"
+                    android:gravity="top"
+                    android:hint="@string/hint_email"
+
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:paddingBottom="20dp"
+                    android:singleLine="true"
+                    android:textColor="@color/colorDarkGray"
+                    android:layout_marginStart="@dimen/base_margin_horizontal_half"
+                    android:layout_marginEnd="@dimen/base_margin_horizontal_half" />
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ico_lock" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.sawatruck.driver.view.design.CustomEditText
+                    android:id="@+id/edit_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="@dimen/base_margin_horizontal_half"
+                    android:layout_marginLeft="@dimen/base_margin_horizontal_half"
+                    android:layout_marginRight="@dimen/base_margin_horizontal_half"
+                    android:gravity="top"
+                    android:hint="@string/hint_password"
+                    android:inputType="textPassword"
+                    android:paddingBottom="20dp"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"
+                    android:textColor="@color/colorDarkGray"
+                    android:layout_marginEnd="@dimen/base_margin_horizontal_half"
+                    android:layout_marginStart="@dimen/base_margin_horizontal_half" />
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/weak_round_orangebutton"
+            android:orientation="horizontal">
+
+            <com.sawatruck.driver.view.design.CustomTextView
+                android:id="@+id/btn_signin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="@dimen/dimen15"
+                android:paddingTop="@dimen/dimen15"
+                android:text="@string/btn_signin"
+
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.sawatruck.driver.view.design.CustomTextView
+                android:id="@+id/btn_forgot_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen20"
+                android:gravity="center"
+                android:text="@string/forgot_password" />
+
+            <com.sawatruck.driver.view.design.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dimen20"
+                android:gravity="center"
+                android:text="@string/or"
+                android:textAllCaps="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_signin_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen20"
+            android:background="@drawable/drawable_btn_facebook"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ico_facebook" />
+
+            <com.sawatruck.driver.view.design.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="start"
+                android:paddingBottom="@dimen/dimen15"
+                android:paddingTop="@dimen/dimen15"
+                android:text="@string/btn_signin_facebook"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_signin_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen20"
+            android:background="@drawable/drawable_btn_google"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ico_gplus" />
+
+            <com.sawatruck.driver.view.design.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="start"
+                android:paddingBottom="@dimen/dimen15"
+                android:paddingTop="@dimen/dimen15"
+                android:text="@string/btn_signin_google"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.sawatruck.driver.view.design.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:gravity="center"
+                android:text="@string/not_yet_account" />
+
+            <com.sawatruck.driver.view.design.CustomTextView
+                android:id="@+id/btn_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen10"
+
+                android:text="@string/signup"
+                android:layout_marginStart="@dimen/dimen10" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

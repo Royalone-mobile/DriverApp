@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="UnusedResources">
+        <ignore path="src/main/res/drawable/ic_sawatruck.png" />
+        <ignore path="src/main/res/drawable/ico_adduser.png" />
+        <ignore path="src/main/res/drawable/ico_map_marker_blue.png" />
+        <ignore path="src/main/res/drawable/ico_spinner_dropdown.png" />
+        <ignore path="src/main/res/drawable/ico_uploadphoto.png" />
+        <ignore path="src/main/res/drawable/marker_truck.png" />
+    </issue>
+</lint>
